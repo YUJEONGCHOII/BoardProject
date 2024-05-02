@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.project.boardProject.member.model.vo.Member" alias="Member"/>
+		<typeAlias type="com.project.boardProject.board.model.vo.Board" alias="Board"/>
+		<typeAlias type="com.project.boardProject.board.model.vo.Attachment" alias="Attachment"/>
+		<typeAlias type="com.project.boardProject.board.model.vo.Reply" alias="Reply"/>
+		<typeAlias type="com.project.boardProject.board.model.vo.ReReply" alias="ReReply"/>
+	</typeAliases>
+	
+	<mappers>
+		<mapper resource="mappers/member-mapper.xml"/>
+		<mapper resource="mappers/board-mapper.xml"/>
+	</mappers>
+</configuration>
