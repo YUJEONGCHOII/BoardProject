@@ -6,7 +6,6 @@
 		<typeAlias type="com.project.boardProject.board.model.vo.Board" alias="Board"/>
 		<typeAlias type="com.project.boardProject.board.model.vo.Attachment" alias="Attachment"/>
 		<typeAlias type="com.project.boardProject.board.model.vo.Reply" alias="Reply"/>
-		<typeAlias type="com.project.boardProject.board.model.vo.ReReply" alias="ReReply"/>
 	</typeAliases>
 	
 	<mappers>
